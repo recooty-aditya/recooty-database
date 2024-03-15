@@ -1,6 +1,6 @@
 <?php
 
-namespace recooty_aditya\recooty_database;
+namespace Recooty\Database;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -9,7 +9,7 @@ class RecootyDatabaseServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/resources/migrations' => database_path('migrations'),
+            __DIR__.'/../resources/migrations' => database_path('migrations'),
         ], 'migrations');
     }
 

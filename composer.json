@@ -1,8 +1,7 @@
 {
-    "name": "yourvendor/yourpackage",
+    "name": "recooty-aditya/recooty-database",
     "description": "Description of your package",
     "type": "library",
-    "license": "MIT",
     "authors": [
         {
             "name": "Your Name",

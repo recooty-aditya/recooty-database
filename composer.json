@@ -14,5 +14,7 @@
             "Recooty\\Database\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

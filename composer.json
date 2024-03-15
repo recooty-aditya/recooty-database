@@ -1,7 +1,6 @@
 {
     "name": "recooty-aditya/recooty-database",
     "description": "Description of your package",
-    "type": "library",
     "authors": [
         {
             "name": "Your Name",
@@ -10,6 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
+            "Recooty\\Database\\Models\\": "src/Models",
             "Recooty\\Database\\": "src/"
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Recooty;
+namespace recooty_aditya\recooty_database;
 
 use Illuminate\Support\ServiceProvider;
 
